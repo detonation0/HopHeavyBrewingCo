@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nearby | Hop Heavy Brewing Co.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#222222">
+		<link rel="icon" href="images/hop_heavy_icon.ico" type="image/x-icon">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt showImg">
+				<a href="index.html"><img src="images/hop_heavy_logo_white_header.jpg"/></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="#">Nearby Restaurants</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
+
+			<!-- Wrapper -->
+			<section id="banner" class="pad">
+				<header>
+					<div class="inner" id="intro" >
+						<h2>What's around?</h2>
+						<p>Check out the area</p>
+					</div>
+				</header>
+			</section>
+
+
+			<section id="wrapper">
+				<!-- Content -->
+				<section id="three" class="wrapper spotlight style3">
+					<div class="inner">
+						<div class="content">
+							<h2 class="major">Restaurants Near Hop Heavy</h2>
+							<div class="map-responsive" style="height:400px;">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1793.8406536277582!2d-122.03500202039537!3d37.97755928745209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRestaurants!5e0!3m2!1sen!2sus!4v1456461604399" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+
+							<br />
+							<br />
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<h2 class="major">Get in touch with us</h2>
+					<p>If you'd like to contact us, shoot us an email by filling out the form below:</p>
+					<form method="POST" action="http://formspree.io/mbrown@hopheavybrewingco.com">
+						<div class="field">
+							<label for="email">Your Email Address</label>
+							<input type="email" name="_replyto" id="email" required/>
+						</div>
+
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4" required></textarea>
+						</div>
+
+						<input type="text" name="_gotcha" style="display:none"/>
+						<ul class="actions">
+							<li><input class="button special fit" type="submit" value="Send" /></li>
+						</ul>
+					</form>
+
+					<ul class="contact">
+						<li class="fa-home">
+							Hop Heavy Brewing Co.<br />
+							<a href="https://goo.gl/maps/wAXf7WuDNF52" target="_blank">
+                                2115 Pacheco St, Concord, California 94520
+                            </a>
+						</li>
+						<li class="fa-phone"><a href="tel:9257599446">(925) 759-9446</a></li>
+						<li class="fa-envelope"><a href="mailto:mbrown@hopheavybrewingco.com">mbrown@hopheavybrewingco.com</a></li>
+						<li class="fa-twitter"><a href="https://twitter.com/HopHeavyBrewing" target="_blank">twitter.com/hopheavybrewing</a></li>
+						<li class="fa-facebook"><a href="https://facebook.com/hopheavybrewing" target="_blank">facebook.com/hopheavybrewing</a></li>
+						<li class="fa-instagram"><a href="https://www.instagram.com/hopheavybrewing" target="_blank">instagram.com/hopheavybrewing</a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; 2016 Hop Heavy Brewing Co.</li>
+					</ul>
+				</div>
+			</section>
+
+			<nav id="ageMenu">
+				<div class="inner">
+					<img src="images/hop_heavy_color_trans.png"
+							 style="max-width:300px;width:100%;"
+							 alt="Hop Heavy Logo"/>
+					<p>You must be 21 to view this site, please verify your birth date</p>
+					<div class="select-wrapper">
+						<select id="monthSelect">
+							<option value="1">January</option>
+							<option value="2">February</option>
+							<option value="3">March</option>
+							<option value="4">April</option>
+							<option value="5">May</option>
+							<option value="6">June</option>
+							<option value="7">July</option>
+							<option value="8">August</option>
+							<option value="9">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+						</select>
+					</div>
+					<br />
+					<div class="select-wrapper">
+						<select id="yearSelect"></select>
+					</div>
+					<br />
+					<input type="checkbox" id="rememberMe" name="remember">
+					<label for="rememberMe">Remember Me</label>
+					<br />
+					<br />
+					<button id="validateAge" type="button" class="btn btn-primary text-uppercase">
+						submit
+					</button>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/jquery.cookie.js"></script>
+		<script src="assets/js/ageCheck.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
