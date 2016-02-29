@@ -3578,7 +3578,7 @@
 			.wrapper.spotlight .image {
 				/*border-radius: 100%;*/
 				margin: 0 1em 1em 0;
-				width: 22em;
+				/*width: 22em;*/
 				overflow: hidden;
 				-ms-flex: 1;
 			}
