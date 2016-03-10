@@ -166,6 +166,11 @@
         // Age Menu
             var $ageMenu = $('#ageMenu');
 
+            // iPad fix
+                if (navigator.userAgent.match(/iPad/i)) {
+                    $ageMenu.css('position', 'absolute');
+                }
+
             $ageMenu._locked = false;
 
             $ageMenu._lock = function() {

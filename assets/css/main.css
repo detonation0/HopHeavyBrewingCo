@@ -1623,7 +1623,8 @@
     }
 
     body {
-        background-color: #2e3141;
+        /*background-color: #2e3141;*/
+        background-color: #333;
         /*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/brewStand.jpg");*/
         background-image: linear-gradient(to top, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../../images/brewStand.jpg");
         background-size: auto, cover;
@@ -3084,6 +3085,30 @@
                     background-size: 1.5em 1.5em;
                 }
 
+        }
+
+        @media screen and (max-width: 360px) {
+
+            #ageMenu .inner {
+                max-width: 75%;
+            }
+
+                #ageMenu .inner p,
+                #ageMenu .inner label {
+                    font-size: 10pt;
+                }
+
+                #ageMenu .inner input[type="submit"],
+                #ageMenu .inner input[type="reset"],
+                #ageMenu .inner input[type="button"],
+                #ageMenu .inner button,
+                #ageMenu .inner .button {
+                    font-size: 0.6em;
+                }
+
+                #ageMenu .inner img {
+                    width: 75% !important;
+                }
         }
 
     body.is-menu-visible #page-wrapper, body.is-age-menu-visible #page-wrapper {
